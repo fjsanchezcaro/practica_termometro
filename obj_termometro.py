@@ -5,7 +5,7 @@ class Termometro():
         
     def conversor(self):
         temperatura = int(input("Introduzca la temperatura en grados "))
-        unidad = str(input("Introduzca la escala de temperatura"\
+        unidad = str(input("Introduzca la escala de temperatura "\
                            "a la que quiere convertir (C/F) "))
         unidad = unidad.upper()
         
