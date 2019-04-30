@@ -19,5 +19,7 @@ class Termometro():
             print("La escala introducida no corresponde a ninguna conocida")
             
         return "La temperatura correspondiente es {:.2f}º {}".format(temperatura, unidad)
+        
+# Esta modificación solamente existe para ver si github está configurado como yo quiero
     
 escalaGrados = Termometro(0, '')
